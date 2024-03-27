@@ -7,6 +7,7 @@ let itemPrice = document.querySelectorAll(".price")
 
 const getSum = () => {
 	let newRow = document.createElement("tr")
+	newRow.id = "ans"
 	let newCell = document.createElement("td")
 	let totalPrice = 0
 	for(let t of itemPrice){
